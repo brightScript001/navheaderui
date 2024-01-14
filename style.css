@@ -1,0 +1,151 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 1000px; /* Increased max-width */
+  padding: 20px;
+}
+
+.first-box,
+.second-box {
+  background: linear-gradient(90deg, rgba(105, 21, 119, 0.82) 26.19%, rgba(183, 49, 165, 0.78) 48.37%, #F300BE 74.86%);
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Increased max-width */
+  height: 49px;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logo,
+.nav-links a,
+.status-box-text {
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+}
+
+.logo,
+.nav-links a {
+  font-size: 12px;
+  line-height: normal;
+}
+
+.status-box-text {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+
+.status-box {
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.568);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+  margin-top: -40px;
+}
+
+.second-box {
+  margin-top: 100px;
+}
+
+.main-email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-form {
+  display: flex;
+  align-items: center;
+}
+
+.email-input {
+  width: 150px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: rgba(84, 14, 96, 0.26);
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+  color: #ffffff57;
+  border-radius: 5px;
+}
+
+.email-input::placeholder {
+  color: #ffffff56;
+}
+
+.submit-button {
+ padding: 9px;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.44);
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.Email-texts {
+    padding: 20px;
+    text-align: center;
+}
+.Email-texts h3 {
+    color: #FFF;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.Email-texts h2 {
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.Email-texts h5 {
+    color: rgba(255, 255, 255, 0.54);
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
